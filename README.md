@@ -11,12 +11,12 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the Repository**  
    ```bash  
-   git clone https://github.com/your-username/drag-drop-todo.git  
-   cd drag-drop-todo
+   git clone https://github.com/tanujrm44/todo-ts-setup.git  
+   cd todo-ts-setup
    ```
-2. **Install Dependencies**
-Although this project primarily uses TypeScript, you may want to install TypeScript globally:
-    ```bash  
+2. **Install Dependencies:**
+   Although this project primarily uses TypeScript, you may want to install TypeScript globally:
+   ```bash  
    npm install -g typescript
    ```
 
