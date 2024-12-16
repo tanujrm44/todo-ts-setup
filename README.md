@@ -16,19 +16,23 @@ Before you begin, ensure you have the following installed:
    ```
 2. **Install Dependencies**
 Although this project primarily uses TypeScript, you may want to install TypeScript globally:
- ```bash  
-npm install -g typescript
-```
+    ```bash  
+   npm install -g typescript
+   ```
 
 ## Project Structure
-```
-todo-ts-setup/  
-├── src/  
-│   └── app.ts           # Main entry point  
-├── dist/                # Compiled JavaScript files  
-├── index.html           # Main HTML file  
-├── app.css              # Styling for the app  
-├── package.json         # Dependencies for the app
-├── app.css              # Styling for the app  
-└── tsconfig.json        # TypeScript configuration file
-```
+   ```
+   todo-ts-setup/  
+   ├── src/  
+   │   └── app.ts           # Main entry point  
+   ├── dist/                # Compiled JavaScript files  
+   ├── index.html           # Main HTML file  
+   ├── app.css              # Styling for the app  
+   ├── package.json         # Dependencies for the app
+   ├── app.css              # Styling for the app  
+   └── tsconfig.json        # TypeScript configuration file
+   ```
+
+This project is inspired by the need to learn and practice TypeScript in a real-world application.
+
+Happy coding! 🚀
