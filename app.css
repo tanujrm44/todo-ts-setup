@@ -1,0 +1,142 @@
+/* Layout Container */
+body {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f5f7fa;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+#app {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Styling for Form Section */
+#user-input {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #007bff;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Styling for Form Elements */
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-control input,
+.form-control textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  font: inherit;
+  background: #007bff;
+  border: 1px solid #007bff;
+  cursor: pointer;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button:hover,
+button:active {
+  background: #0056b3;
+}
+
+/* todos Section Styling */
+.todos {
+  margin: 0;
+  flex: 2;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.todos header {
+  background: #007bff;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.todos h2 {
+  margin: 0;
+  color: white;
+  font-size: 1.25rem;
+}
+
+#finished-todos {
+  border-color: #28a745;
+}
+
+#finished-todos header {
+  background: #28a745;
+}
+
+.todos ul {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+.todos li {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+  margin: 0.75rem;
+  border-radius: 6px;
+  background: #fafbfc;
+}
+
+.todos li h2 {
+  color: #007bff;
+  margin: 0.5rem 0;
+}
+
+#finished-todos li h2 {
+  color: #28a745;
+}
+
+.todos li h3 {
+  color: #555;
+  font-size: 1rem;
+}
+
+.todos li p {
+  margin: 0;
+  color: #333;
+}
+
+/* Droppable Areas */
+.droppable {
+  background: #e8f5ff;
+  border: 1px dashed #007bff;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+#finished-todos .droppable {
+  background: #e8fbe8;
+  border-color: #28a745;
+}
